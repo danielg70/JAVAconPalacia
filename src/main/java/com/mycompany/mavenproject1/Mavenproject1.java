@@ -25,3 +25,18 @@ public class Mavenproject1 {
         System.out.println(project.SumaDeTresNumeros(12,3,4));
     }
 }
+public class Auto {
+
+    int PuertasAuto = 0;
+    
+}
+class CreaciondelAuto 
+{
+     public static void main(String[] args) {
+         Auto obj1 = new Auto();
+       int Fabricacion1 = 3;
+       int Suma = obj1.PuertasAuto + Fabricacion1;
+       String frase = "La cantidad de puertas del auto es " + Suma;
+       System.out.println(frase);
+    }
+}
