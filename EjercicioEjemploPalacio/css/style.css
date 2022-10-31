@@ -1,4 +1,4 @@
-*{
+body{
 
     background-color: rgb(12, 11, 12);
   color: rgb(241, 245, 244);   
@@ -23,15 +23,38 @@ h2{
 
 }
 
+h5 {
+    color: rgba(240, 51, 26, 0.788);
+ font-size: 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h6{
+    color: rgb(32, 110, 212);
+    font-family: fantasy;
+}
+
 #navabar-texto{
     background-color: rgb(231, 231, 14);
     color: blue;
 }
 
 
-#simpsons{
+.simpsons{
     text-align: center;
     margin-bottom: -50px;
+}
+
+.imgali {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.imgpreso {
+    display: flex;
+    justify-content: right;
 }
 
 // X-Small devices (portrait phones, less than 576px)
