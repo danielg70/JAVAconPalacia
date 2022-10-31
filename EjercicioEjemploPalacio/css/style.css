@@ -1,0 +1,53 @@
+*{
+
+    background-color: rgb(12, 11, 12);
+  color: rgb(241, 245, 244);   
+  
+}
+
+.flexcontenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 400%;
+}
+
+h2{
+    font-family: century gothic;
+    font-size: 300%;
+
+}
+
+#navabar-texto{
+    background-color: rgb(231, 231, 14);
+    color: blue;
+}
+
+
+#simpsons{
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
